@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Slide Navbar</title>
+    <meta content="charset=utf-8" />
+
+    <title>Medicard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="signstyle.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+</head>
+<body>
+    <img src="c11.png" alt="" class="cc" />
+    <!-- sign up and log in-->
+    <div class="main">
+        <input type="checkbox" id="chk" aria-hidden="true">
+
+        <div class="signup">
+            <form>
+                <label for="chk" aria-hidden="true">                    Sign up</label>
+
+                <input type="text" name="cin" placeholder="CIN number" required="" maxlength="8">
+                <input type="text" name="nom" placeholder="Name" required="">
+                <input type="text" name="prebom" placeholder="Last name" required="">
+                <input type="tel" name="numtel" placeholder="Phone" required="" maxlength="8">
+                <input type="date" name="bd" required="">
+                <span style="display:flex" class="radiospan"><p>Male</p><input type="radio" name="sex" class="radio"><p>Female</p><input type="radio" name="sex" class="radio"></span>
+                <input type="password" name="mdp" placeholder="Password" required="">
+                <input type="password" name="cmdp" placeholder="Confirm Password" required="">
+
+
+                <button>Sign up</button>
+            </form>
+        </div>
+
+        <div class="login">
+            <form>
+                <label for="chk" aria-hidden="true">Login</label>
+                <input type="email" name="email" placeholder="Email" required="">
+                <input type="password" name="pswd" placeholder="Password" required="">
+                <button>Login</button>
+            </form>
+        </div>
+    </div>
+    <!-- end sign up and log in-->
+
+</body>
+</html>
